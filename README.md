@@ -46,6 +46,21 @@ npm run dev
 # or
 yarn dev
 Open http://localhost:3000 to see your app.
+
+Deployment
+The app is deployed live on Vercel at:
+https://pixa-events-pjm.vercel.app
+
+To deploy your own:
+
+Push your code to GitHub.
+
+Connect the repo on Vercel.
+
+Set environment variables on Vercel dashboard.
+
+Vercel will auto-build and deploy.
+
 Design Choices
 Next.js for server-side rendering and dynamic routing.
 
