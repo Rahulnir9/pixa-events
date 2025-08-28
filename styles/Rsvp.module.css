@@ -1,0 +1,52 @@
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fafafa;
+
+  p {
+    margin-bottom: 15px;
+    color: #444;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #005bb5;
+  }
+}
+
+.select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: 600;
+  color: green;
+  text-align: center;
+}

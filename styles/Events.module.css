@@ -1,0 +1,34 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.eventList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.eventList li {
+  margin-bottom: 12px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.eventList li a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+.eventList li a:hover {
+  text-decoration: underline;
+}
